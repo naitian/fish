@@ -1,0 +1,46 @@
+html body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #424242;
+
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+body, body.out-of-tune {
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body.in-tune {
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 30vw;
+}
+
+.foreman {
+    object-fit: cover;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+}
+
+.pitch {
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+}
